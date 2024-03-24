@@ -4,19 +4,23 @@
   box-sizing: border-box;
   color: #fff;
 }
-//global stylyes
+
 .text-transorm {
   text-transform: uppercase;
 }
+
 .text-capitalize {
   text-transform: capitalize;
 }
+
 .d-flex {
   display: flex;
 }
+
 .justify-between {
   justify-content: space-between;
 }
+
 .items-center {
   align-items: center;
 }
@@ -27,7 +31,7 @@
 
 ::-webkit-scrollbar-track {
   height: 5px;
-  background-color: #ffffffbf;
+  background-color: rgba(255, 255, 255, 0.7490196078);
   border-radius: 4px;
 }
 
@@ -35,4 +39,4 @@
   background-color: #fff;
   width: 50px;
   border-radius: 4px;
-}
+}/*# sourceMappingURL=styles.css.map */

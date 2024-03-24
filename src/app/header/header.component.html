@@ -1,0 +1,13 @@
+<header class="text-transorm d-flex justify-between">
+  <h1>instaweather</h1>
+  <div class="toggle d-flex items-center">
+    <div
+      [ngClass]="{ isActive: !isFeh }"
+      class="clisious"
+      (click)="handlCelisious()"
+    >
+      c
+    </div>
+    <div [ngClass]="{ isActive: isFeh }" (click)="handlFeh()">f</div>
+  </div>
+</header>

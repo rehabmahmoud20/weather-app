@@ -1,0 +1,37 @@
+section{
+    div:last-of-type{
+        text-align: center;
+        p:first-of-type,img{
+            margin-bottom: 14px;
+        }
+    }
+   
+    
+}
+.btn-wrraper {
+  border-bottom: 1px solid #ffffffbf;
+  margin-bottom: 37px;
+  button {
+    border: none;
+    background: transparent;
+    text-transform: capitalize;
+    border-bottom: 2px solid white;
+    padding-bottom: 14px;
+    font-weight: 700;
+
+    // &:last-of-type {
+    //   margin-left: 50px;
+    //   color: #ffffffbf;
+    // }
+  }
+}
+.forecastday {
+  display: flex;
+  gap: 50px;
+  max-width: 1336px;
+  justify-content: center;
+  overflow: auto;
+  padding-bottom: 30px;
+//   border-bottom: 2px solid white;
+
+}

@@ -1,0 +1,28 @@
+section div:last-of-type {
+  text-align: center;
+}
+section div:last-of-type p:first-of-type, section div:last-of-type img {
+  margin-bottom: 14px;
+}
+
+.btn-wrraper {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7490196078);
+  margin-bottom: 37px;
+}
+.btn-wrraper button {
+  border: none;
+  background: transparent;
+  text-transform: capitalize;
+  border-bottom: 2px solid white;
+  padding-bottom: 14px;
+  font-weight: 700;
+}
+
+.forecastday {
+  display: flex;
+  gap: 50px;
+  max-width: 1336px;
+  justify-content: center;
+  overflow: auto;
+  padding-bottom: 30px;
+}/*# sourceMappingURL=daily-forcast.component.css.map */

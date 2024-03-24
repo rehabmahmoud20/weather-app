@@ -1,0 +1,14 @@
+<main class="d-flex justify-between text-capitalize">
+  <div class="city">
+    <h2 class="text-capitalize">{{ weather?.location?.name }}</h2>
+    <p>{{ weather?.location?.localtime | date : "EEEE d, y" }}</p>
+    <img src="../../assets/images/cloudy 2.png" alt="icon" />
+    <p>{{ weather.current?.condition?.text }}</p>
+  </div>
+  <div class="temp">
+    <p>{{isFeh? weather.current?.temp_f :weather.current?.temp_c}}&deg;</p>
+
+    <!-- <p>70&deg;/80&deg;</p> -->
+    <p>{{ weather.current?.condition?.text }} throught out the day</p>
+  </div>
+</main>

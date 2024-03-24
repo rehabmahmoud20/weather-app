@@ -1,0 +1,13 @@
+<section>
+  <div class="btn-wrraper">
+    <button>daily</button>
+    <!-- <button>hourly</button> -->
+  </div>
+  <div class="forecastday">
+    <div *ngFor="let item of weather?.forecast?.forecastday">
+      <p>{{ item.date | date : "dd/MM/yyyy" }}</p>
+      <img src="../../assets/images/cloudy 2.png" alt="icon" />
+      <p>{{ item.day.maxtemp_f }}&deg;</p>
+    </div>
+  </div>
+</section>

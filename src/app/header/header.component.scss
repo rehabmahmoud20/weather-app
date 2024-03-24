@@ -1,0 +1,28 @@
+header {
+  margin-bottom: 50px;
+}
+.clisious {
+  border-right: 1px solid #fff;
+}
+.toggle {
+  div {
+    padding: 5px 16px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+.isActive {
+  background-color: #577c91;
+  transition: all 1s;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 1199px) {
+  h1 {
+    font-size: 30px;
+  }
+}
